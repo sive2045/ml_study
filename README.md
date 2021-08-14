@@ -19,5 +19,5 @@ more info
 ## Books :book:
 
 <img src="https://insightbookblog.files.wordpress.com/2020/10/ed919ceca780ec9e85ecb2b4-1.jpg?w=816">
-
+g
 -> git : https://github.com/metamath1/noviceml
