@@ -23,16 +23,34 @@ sigmoid_function = lambda x: 1 / (1 + np.exp(-x))
 step = lambda x: np.array(x>0, dtype=np.int32)
 sigmoid = lambda x: 1 /(1 + np.exp(-x))
 
-fig = plt.figure(figsize=(7, 7))
-ax = fig.add_subplot(1, 1, 1)
-x = np.linspace(-6,6)
-y_step = step(x)
-y_sig = sigmoid(x)
+#fig = plt.figure(figsize=(7, 7))
+#ax = fig.add_subplot(1, 1, 1)
+#x = np.linspace(-6,6)
+#y_step = step(x)
+#y_sig = sigmoid(x)
+#
+#ax.plot(x,y_step, '--', label=r'$H(x)$', c='g')
+#ax.plot(x,y_sig, label=r'$S(x)$', c='g')
+#ax.set_xlim(-6,6); ax.set_ylim(-0.1, 1.1)
+#ax.set_xlabel(r'$x$'); ax.set_ylabel(r'$y$')
+#ax.legend()
+#
+#plt.show()
 
-ax.plot(x,y_step, '--', label=r'$H(x)$', c='g')
-ax.plot(x,y_sig, label=r'$S(x)$', c='g')
-ax.set_xlim(-6,6); ax.set_ylim(-0.1, 1.1)
-ax.set_xlabel(r'$x$'); ax.set_ylabel(r'$y$')
-ax.legend()
+relu = lambda x: np.maximum(0,x)
 
-plt.show()
+#x = np.arange(-6,6,.01)
+#y = relu(x)
+#
+#plt.plot(x,y); plt.title('ReLU')
+#plt.show()
+
+ex = np.array([[
+    [1, 2],
+    [2, 3]
+],[
+    [3, 5],
+    [4,6]
+]])
+
+print(np.ndim(ex))
