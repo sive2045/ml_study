@@ -23,3 +23,4 @@ g
 -> git : https://github.com/metamath1/noviceml
 <br><br>
 <img src="https://github.com/WegraLee/deep-learning-from-scratch/raw/master/cover_image.jpg" width="500">
+
