@@ -21,3 +21,5 @@ more info
 <img src="https://insightbookblog.files.wordpress.com/2020/10/ed919ceca780ec9e85ecb2b4-1.jpg?w=816">
 g
 -> git : https://github.com/metamath1/noviceml
+<br><br>
+<img src="https://github.com/WegraLee/deep-learning-from-scratch/raw/master/cover_image.jpg" width="500">
